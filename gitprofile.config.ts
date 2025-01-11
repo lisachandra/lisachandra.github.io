@@ -13,7 +13,7 @@ const CONFIG = {
 				limit: 8,
 				exclude: {
 					forks: true,
-					projects: ["lisachandra/lisachandra"],
+					projects: ["lisachandra/lisachandra", "lisachandra/lisachandra.github.io"],
 				},
 			},
 		},
