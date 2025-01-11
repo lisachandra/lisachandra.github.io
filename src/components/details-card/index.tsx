@@ -18,11 +18,19 @@ import {
   FaStackOverflow,
   FaTelegram,
   FaYoutube,
+  FaDiscord, // Import Discord icon
+  FaSoundcloud, // Import Soundcloud icon
 } from 'react-icons/fa';
 import { FaSquareThreads } from 'react-icons/fa6';
 import { MdLocationOn } from 'react-icons/md';
 import { RiMailFill, RiPhoneFill } from 'react-icons/ri';
-import { SiResearchgate, SiTwitter, SiUdemy } from 'react-icons/si';
+import {
+  SiKofi,
+  SiResearchgate,
+  SiRobloxstudio,
+  SiTwitter,
+  SiUdemy,
+} from 'react-icons/si';
 import { Profile } from '../../interfaces/profile';
 import {
   SanitizedGithub,
@@ -286,7 +294,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                 <ListItem
                   icon={<FaYoutube />}
                   title="YouTube:"
-                  value={`@${social.youtube}`}
+                  value={social.youtube}
                   link={`https://www.youtube.com/@${social.youtube}`}
                 />
               )}
@@ -322,6 +330,38 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   link={`https://stackoverflow.com/users/${social.stackoverflow}`}
                 />
               )}
+              {social?.discord && (
+                <ListItem
+                  icon={<FaDiscord />}
+                  title="Discord:"
+                  value={social.discord[0]}
+                  link={`https://discordapp.com/users/${social.discord[1]}`}
+                />
+              )}
+              {social?.soundcloud && (
+                <ListItem
+                  icon={<FaSoundcloud />}
+                  title="SoundCloud:"
+                  value={social.soundcloud}
+                  link={`https://soundcloud.com/${social.soundcloud}`}
+                />
+              )}
+              {social?.kofi && (
+                <ListItem
+                  icon={<SiKofi />}
+                  title="Ko-fi:"
+                  value={social.kofi}
+                  link={`https://ko-fi.com/${social.kofi}`}
+                />
+              )}
+              {social?.roblox && (
+                <ListItem
+                  icon={<SiRobloxstudio />}
+                  title="Roblox:"
+                  value={social.roblox[0]}
+                  link={`https://create.roblox.com/talent/creators/${social.roblox[1]}`}
+                />
+              )}
               {social?.website && (
                 <ListItem
                   icon={<FaGlobe />}
@@ -339,7 +379,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
               {social?.skype && (
                 <ListItem
                   icon={<FaSkype />}
-                  title="Skype"
+                  title="Skype:"
                   value={social.skype}
                   link={`skype:${social.skype}?chat`}
                 />
@@ -347,7 +387,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
               {social?.telegram && (
                 <ListItem
                   icon={<FaTelegram />}
-                  title="Telegram"
+                  title="Telegram:"
                   value={social.telegram}
                   link={`https://t.me/${social.telegram}`}
                 />

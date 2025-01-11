@@ -63,6 +63,10 @@ export interface SanitizedSocial {
   telegram?: string;
   phone?: string;
   email?: string;
+  soundcloud?: string;
+  kofi?: string;
+  roblox?: [name: string, id: string];
+  discord?: [name: string, id: string];
 }
 
 export interface SanitizedResume {

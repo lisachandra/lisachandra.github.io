@@ -206,6 +206,26 @@ interface Social {
    * Email
    */
   email?: string;
+
+  /**
+   * Soundcloud
+   */
+  soundcloud?: string;
+
+  /**
+   * Ko-fi
+   */
+  kofi?: string;
+
+  /**
+   * Roblox
+   */
+  roblox?: [name: string, id: string];
+
+  /**
+   * Discord
+   */
+  discord?: [name: string, id: string];
 }
 
 interface Resume {
