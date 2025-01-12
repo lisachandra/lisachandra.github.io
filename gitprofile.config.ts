@@ -127,6 +127,9 @@ const CONFIG = {
   },
   footer: `© 2025 lisachandra. All Rights Reserved.`,
   enablePWA: true,
+  googleAnalytics: {
+	id: 'G-78ETQ1ZGXG',
+  },
 };
 
 export default CONFIG;
