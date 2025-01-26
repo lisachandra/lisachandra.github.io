@@ -39,6 +39,22 @@ const CONFIG = {
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://www.youtube.com/playlist?list=PLrLKVldeA4Frd2nLLujmNdMD4S4_3XHmu',
         },
+        {
+          title: "Music Pads",
+          description:
+            "A music game where you can create, perform, and share your own tracks or remix songs from others.",
+          imageUrl:
+            "https://i.imgur.com/e3u5uUx.png",
+          link: "https://www.roblox.com/games/8109104504/Music-Pads",
+        },
+        {
+          title: "Endless Vistas",
+          description:
+            "A massive open-world game covering 571,428 studs² (160 km²), with 64 unique biomes to explore.",
+          imageUrl:
+            "https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg",
+          link: "https://www.roblox.com/games/72561150297547/Endless-Vistas",
+        },
       ],
     },
   },
