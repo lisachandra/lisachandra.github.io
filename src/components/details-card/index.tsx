@@ -18,8 +18,9 @@ import {
   FaStackOverflow,
   FaTelegram,
   FaYoutube,
-  FaDiscord, // Import Discord icon
-  FaSoundcloud, // Import Soundcloud icon
+  FaTwitter,
+  FaDiscord,
+  FaSoundcloud,
 } from 'react-icons/fa';
 import { FaSquareThreads } from 'react-icons/fa6';
 import { MdLocationOn } from 'react-icons/md';
@@ -28,7 +29,6 @@ import {
   SiKofi,
   SiResearchgate,
   SiRobloxstudio,
-  SiTwitter,
   SiUdemy,
 } from 'react-icons/si';
 import { Profile } from '../../interfaces/profile';
@@ -220,7 +220,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
               )}
               {social?.twitter && (
                 <ListItem
-                  icon={<SiTwitter />}
+                  icon={<FaTwitter />}
                   title="Twitter:"
                   value={social.twitter}
                   link={`https://twitter.com/${social.twitter}`}
