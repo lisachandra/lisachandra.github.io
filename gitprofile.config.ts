@@ -50,7 +50,7 @@ const CONFIG = {
         {
           title: "Endless Vistas",
           description:
-            "A massive open-world game covering 571,428 studs² (160 km²), with 64 unique biomes to explore.",
+            "A massive open-world game covering 1.275 billion studs² (100 km²), with 64 unique biomes to explore.",
           imageUrl:
             "https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg",
           link: "https://www.roblox.com/games/72561150297547/Endless-Vistas",
