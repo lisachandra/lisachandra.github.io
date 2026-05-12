@@ -32,14 +32,6 @@ const CONFIG = {
           link: 'https://www.roblox.com/games/9161557310/Ferocity-In-Silence',
         },
         {
-          title: "Qy'Xanthium",
-          description:
-            'A rhythm-game inspired album showcasing complex original compositions.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://www.youtube.com/playlist?list=PLrLKVldeA4Frd2nLLujmNdMD4S4_3XHmu',
-        },
-        {
           title: "Music Pads",
           description:
             "A music game where you can create, perform, and share your own tracks or remix songs from others.",
@@ -48,12 +40,12 @@ const CONFIG = {
           link: "https://www.roblox.com/games/8109104504/Music-Pads",
         },
         {
-          title: "Endless Vistas",
+          title: "Rocket Powered Blox Cars",
           description:
-            "A massive open-world game covering 1.275 billion studs² (100 km²), with 64 unique biomes to explore.",
+            "A car soccer game based on Rocket League.",
           imageUrl:
             "https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg",
-          link: "https://www.roblox.com/games/72561150297547/Endless-Vistas",
+          link: "https://www.roblox.com/games/96406189576385/Rocket-Powered-Blox-Cars",
         },
       ],
     },
